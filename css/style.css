@@ -76,20 +76,31 @@ textarea {
     display: inline-block;
 }
 
-.form-body {
-    padding: 50px;
+.form-title, .form-p {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
+.form-p {
+    margin-bottom: 20px;
+}
 
-
-.form-body p {
-    padding-bottom: 40px;
+.form-body {
+    padding: 50px;
+    
 }
 
 .box-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza label e input */
     padding: 10px;
     margin-bottom: 10px;
-    
+}
+
+.box-input label {
+    align-self: flex-start;
+    padding-left: 210px;
 }
 
 .block {
